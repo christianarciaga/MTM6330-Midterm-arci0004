@@ -1,0 +1,97 @@
+body,
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  background: url(images/home-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(236, 236, 236);
+  opacity: 0.8;
+}
+
+.logo {
+  float: center;
+  padding: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 33px;
+  position: relative;
+}
+
+nav a {
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Helvetica;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  position: absolute;
+  width: 0%;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*Content for Home Page*/
+.content {
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Archivo Narrow';
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgb(79, 79, 79);
+}
+/*Content for About Page*/
+.about {
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'Archivo Narrow';
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(79, 79, 79);
+  background-color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
