@@ -2,7 +2,6 @@ body,
 html {
   min-height: 100%;
 }
-
 body {
   margin: 0;
   background: url(images/home-background.jpeg);
@@ -16,7 +15,7 @@ body {
 }
 
 header {
-  background: #ececec;
+  background: rgb(236, 236, 236);
   opacity: 0.8;
 }
 
@@ -43,7 +42,7 @@ nav li {
 }
 
 nav a {
-  color: #4f4f4f;
+  color: rgb(79, 79, 79);
   text-decoration: none;
   text-transform: uppercase;
   font-family: Helvetica;
@@ -54,7 +53,7 @@ nav a:hover {
 }
 
 nav a::before {
-  content: "";
+  content: '';
   display: block;
   height: 3px;
   width: 100%;
@@ -67,9 +66,8 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
-
 header::after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -78,26 +76,23 @@ header::after {
 .content {
   text-align: center;
   margin-top: 200px;
-  font-family: "Archivo Narrow";
+  font-family: 'Archivo Narrow';
   text-transform: uppercase;
   font-size: 30px;
-  color: #4f4f4f;
+  color: rgb(79, 79, 79);
 }
-
 /*Content for About Page*/
 .about {
   text-align: center;
   margin-top: 200px;
   margin-left: 150px;
   margin-right: 150px;
-  font-family: "Archivo Narrow";
+  font-family: 'Archivo Narrow';
   font-size: 20px;
   text-transform: uppercase;
-  color: #4f4f4f;
-  background-color: #e5e5e5;
+  color: rgb(79, 79, 79);
+  background-color: rgb(229, 229, 229);
   width: 80%;
 }
-
-/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
