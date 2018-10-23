@@ -94,9 +94,7 @@ header::after {
   max-width: 100%;
   overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
-  margin-right: 0px;
-  margin-left: 0px; }
+  flex-wrap: wrap; }
 
 .gallery {
   margin: 5px;
