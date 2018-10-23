@@ -1,132 +1,114 @@
 body,
 html {
-  min-height: 100%;
-}
+  min-height: 100%; }
 
 body {
   margin: 0;
-  background: url(images/home-background.jpeg);
+  background: url(../../images/home-background.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .container {
   width: 80%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 header {
   background: #ececec;
-  opacity: 0.8;
-}
+  opacity: 0.8; }
 
 .logo {
   float: center;
-  padding: 10px;
-}
+  padding: 10px; }
 
 nav {
-  float: right;
-}
+  float: right; }
 
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
+  list-style: none; }
 
 nav li {
   display: inline-block;
   margin-left: 50px;
   padding-top: 33px;
-  position: relative;
-}
+  position: relative; }
 
 nav a {
   color: #4f4f4f;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Helvetica;
-}
+  font-family: Helvetica; }
 
 nav a:hover {
-  color: black;
-}
+  color: black; }
 
 nav a::before {
-  content: "";
+  content: '';
   display: block;
   height: 3px;
   width: 100%;
   background-color: black;
   top: 0;
   position: absolute;
-  width: 0%;
-}
+  width: 0%; }
 
 nav a:hover::before {
-  width: 100%;
-}
+  width: 100%; }
 
 header::after {
-  content: "";
+  content: '';
   display: table;
-  clear: both;
-}
+  clear: both; }
 
 /*Content for Home Page*/
 .content {
   text-align: center;
   margin-top: 200px;
-  font-family: "Archivo Narrow";
+  font-family: 'Archivo Narrow';
   text-transform: uppercase;
   font-size: 30px;
-  color: #4f4f4f;
-}
+  color: #4f4f4f; }
 
 /*Content for About Page*/
 .about {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 20px;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-right: 50px;
   padding-left: 50px;
-  font-family: "Archivo Narrow";
+  font-family: 'Archivo Narrow';
   font-size: 20px;
   text-transform: uppercase;
   color: #4f4f4f;
   background-color: #e5e5e5;
   opacity: 0.95;
   width: 90%;
-}
+  height: auto; }
 
 /*Content for Portfolio Page*/
 .portfolio {
-  max-width: 90%;
-  margin: 10px;
-  overflow: hidden;
-}
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  overflow: hidden; }
 
 .gallery {
-  margin: 10px;
+  margin: 5px;
   float: left;
   width: 48%;
-  align-content: center;
-}
+  align-content: center; }
 
 .gallery img {
-  margin: 0px;
+  margin: 5px;
   width: 100%;
   height: auto;
-  opacity: 0.9;
-}
+  opacity: 0.85; }
 
 .gallery img:hover {
   opacity: 1;
   transform: scale(1.01);
-  transition: all 0.25s ease-in-out;
-}
-
-/*# sourceMappingURL=main.css.map */
+  transition: all 0.25s ease-in-out; }

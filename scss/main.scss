@@ -4,7 +4,7 @@ html {
 }
 body {
   margin: 0;
-  background: url(images/home-background.jpeg);
+  background: url(../../images/home-background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,7 +84,8 @@ header::after {
 /*Content for About Page*/
 .about {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 20px;
   // margin-right: 150px;
   padding-top: 100px;
@@ -98,24 +99,26 @@ header::after {
   background-color: rgb(229, 229, 229);
   opacity: 0.95;
   width: 90%;
+  height: auto;
 }
 /*Content for Portfolio Page*/
 .portfolio {
-  max-width: 90%;
-  margin: 10px;
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
   overflow: hidden;
 }
 .gallery {
-  margin: 10px;
+  margin: 5px;
   float: left;
   width: 48%;
   align-content: center;
 }
 .gallery img {
-  margin: 0px;
+  margin: 5px;
   width: 100%;
   height: auto;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 .gallery img:hover {
   opacity: 1;
